@@ -18,7 +18,7 @@ const toggleMenu = () => {
   <header>
     <div class="header">
       <box-icon name="menu" @click="toggleMenu"></box-icon>
-      <h2>Ma nourriture</h2>
+      <h2 class="food">Ma nourriture</h2>
       <h2>Mail</h2>
     </div>
     <Transition name="slide">
@@ -58,11 +58,13 @@ const toggleMenu = () => {
   transform: translateX(-100%);
 }
 box-icon {
-  margin-left: 3px;
-  margin-top: 8px;
+  margin-left: 14px;
+  margin-top: 22px;
   cursor: pointer;
 }
-
+.food {
+  margin-left: 25px;
+}
 box-icon:hover {
   background-color: #d4d3dc;
 }
@@ -72,7 +74,8 @@ h2 {
 }
 @media (min-width :769px) {
   box-icon {
-    margin-left: 60px;
+    margin-left: 75px;
+    margin-top: 22.5px;
   }
   h2 {
     margin-right: 60px;
