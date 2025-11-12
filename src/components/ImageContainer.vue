@@ -78,7 +78,7 @@ defineProps({
 .image-container img {
   max-width: 100%;
   height: auto;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 @media (min-width: 769px) {
@@ -92,15 +92,18 @@ defineProps({
     width: 350px;
     height: 390px;
   }
+
   .cherries-image {
     margin-top:6px;
   }
+
   .steak-image {
     margin-top:17px;
   }
   .wine-image {
     margin-top:27px;
   }
+
   .sandwich-image {
     position: relative;
     top: 12px;

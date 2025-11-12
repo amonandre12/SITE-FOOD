@@ -84,14 +84,10 @@ box-icon {
 }
 
 @media (min-width: 769px) {
-  .numbers-content {
-    position: relative;
-    top: 90px;
-  }
 
 hr {
   position: relative;
-  top: 180px;
+  top: 150px;
   height: 6px;
 }
 }

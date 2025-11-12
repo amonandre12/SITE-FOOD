@@ -79,6 +79,8 @@ import MainCard from './MainCard.vue'
     display: flex;
     flex-direction: row;
     padding: 70px;
+    position: relative;
+    bottom: 70px;
   }
 
   .image-container img {
